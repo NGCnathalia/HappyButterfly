@@ -1,0 +1,41 @@
+.navFirst {
+  background-color: var(--color-blue);
+  height: auto;
+  padding: 4px 4px;
+}
+.navFirst a:link,
+.navFirst a:visited {
+  color: var(--color-black);
+  text-decoration: none;
+}
+.navFirstUl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navFirstUl li:nth-child(1) img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.navFirstUl li:nth-child(2) h1 {
+  font-family: "Euphoria Script", cursive;
+  font-style: normal;
+  color: var(--color-black);
+  font-size: 1.5rem;
+  text-shadow: -1px -1px 0 var(--color-white), 0 -1px 0 var(--color-white),
+    1px -1px 0 var(--color-white), 1px 0 0 var(--color-white),
+    1px 1px 0 var(--color-white), 0 1px 0 var(--color-white),
+    -1px 1px 0 var(--color-white), -1px 0 0 var(--color-white);
+}
+.navFirstUl li:nth-child(3) {
+  display: none;
+}
+.navFirstUl li:nth-child(4) img {
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-pink-light);
+  border-radius: 50%;
+}
