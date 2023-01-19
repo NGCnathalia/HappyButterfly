@@ -10,6 +10,8 @@ import { Amigurumis } from './Pages/Amigurumis';
 import { Accesories } from './Pages/Accesories';
 import { Clothes } from './Pages/Clothes';
 import { DreamCatcher } from './Pages/DreamCatcher';
+import { Footer } from './components/Footer/Footer';
+
 
 
 function App() {
@@ -26,9 +28,11 @@ function App() {
           <Route path='/accesories' element={<Accesories />} />
           <Route path='/dreamCatcher' element={<DreamCatcher />} />
           <Route path='/clothes' element={<Clothes />} />
+          
 
         </Route>
       </Routes>
+      <Footer />
     </main>
   )
 }

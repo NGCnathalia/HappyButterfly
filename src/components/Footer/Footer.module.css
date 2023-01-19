@@ -1,0 +1,44 @@
+.containerFooter {
+  background: var(--color-blue);
+  width: auto;
+  padding: 5px 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(auto, auto);
+  place-items: center;
+}
+.containerFooter a {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.containerFooter img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.containerFooter :nth-child(1),
+.containerFooter :nth-child(2),
+.containerFooter :nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.containerFooter a,
+.containerFooter h5,
+.containerFooter h6 {
+  font-family: "Euphoria Script", cursive;
+  font-style: normal;
+  color: var(--color-black);
+  font-size: 1rem;
+  text-shadow: -1px -1px 0 var(--color-white), 0 -1px 0 var(--color-white),
+    1px -1px 0 var(--color-white), 1px 0 0 var(--color-white),
+    1px 1px 0 var(--color-white), 0 1px 0 var(--color-white),
+    -1px 1px 0 var(--color-white), -1px 0 0 var(--color-white);
+}
+.containerFooter a:link,
+.containerFooter a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
