@@ -1,0 +1,14 @@
+.network{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.network img{
+    width: 30px;
+    height: 30px;
+}
+.network a:nth-child(1) img{
+    margin-left: 24px;
+    margin-right: 24px;
+}

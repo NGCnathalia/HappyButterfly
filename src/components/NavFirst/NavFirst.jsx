@@ -7,7 +7,8 @@ import styleCss from "./NavFirst.module.css"
 
 export const NavFirst = () => {
     return (
-        <nav className={styleCss.navFirst}>
+        <header>
+            <nav className={styleCss.navFirst}>
             <ul className={styleCss.navFirstUl}>
                 <li>
                     <Link to="/">
@@ -34,7 +35,34 @@ export const NavFirst = () => {
                     </Link>
                 </li>
             </ul>
+            <ul className={styleCss.navFirstUl2}>
+                <li>
+                    <Link to="/amigurumis">
+                        <h1>Amigurumis</h1>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/accesories">
+                        <h1>Accesorios</h1>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/dreamCatcher">
+                        <h1>Atrapasueños</h1>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/clothes">
+                        <h1>Ropa</h1>
+                    </Link>
+                </li>
+            </ul>
             <Outlet />
         </nav>
-    )
+
+
+
+
+        </header>
+            )
 }

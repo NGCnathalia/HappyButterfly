@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -17,4 +19,40 @@ html,
 body {
   width: auto;
   height: auto;
+}
+.carousel .thumbs-wrapper{
+  display: none;
+}
+
+.divHome{
+  background-color: var(--color-white);
+  text-align: center;
+
+}
+.divHome h1{
+  font-family: "Euphoria Script", cursive;
+  font-style: normal;
+  color: var(--color-black);
+  font-size: 1.5rem;
+  text-shadow: -1px -1px 0 var(--color-white), 0 -1px 0 var(--color-white),
+    1px -1px 0 var(--color-white), 1px 0 0 var(--color-white),
+    1px 1px 0 var(--color-white), 0 1px 0 var(--color-white),
+    -1px 1px 0 var(--color-white), -1px 0 0 var(--color-white);
+}
+.secHome :nth-child(2){
+  font-family: 'Indie Flower', cursive;
+  padding: 1rem 1rem;
+  text-align: justify;
+}
+
+.secSocialMedia {
+  padding: 10px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.divTitleCategory{
+  background-color: var(--color-pink-light);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }

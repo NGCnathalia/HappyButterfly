@@ -6,7 +6,10 @@ import { NavFirst } from './components/NavFirst/NavFirst';
 import { Home } from './Pages/Home';
 import { Product } from './Pages/Product';
 import { ShoppingCar } from './Pages/ShoppingCar';
-
+import { Amigurumis } from './Pages/Amigurumis';
+import { Accesories } from './Pages/Accesories';
+import { Clothes } from './Pages/Clothes';
+import { DreamCatcher } from './Pages/DreamCatcher';
 
 
 function App() {
@@ -19,6 +22,11 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/Products' element={<Product />} />
           <Route path='/ShoppingCar' element={<ShoppingCar />} />
+          <Route path='/amigurumis' element={<Amigurumis />} />
+          <Route path='/accesories' element={<Accesories />} />
+          <Route path='/dreamCatcher' element={<DreamCatcher />} />
+          <Route path='/clothes' element={<Clothes />} />
+
         </Route>
       </Routes>
     </main>
