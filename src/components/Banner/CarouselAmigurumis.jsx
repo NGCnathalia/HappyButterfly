@@ -11,7 +11,6 @@ import ph7 from "../../assets/img/amigurumis/7.jpeg";
 import ph8 from "../../assets/img/amigurumis/8.jpeg";
 import ph9 from "../../assets/img/amigurumis/9.jpeg";
 import ph10 from "../../assets/img/amigurumis/10.jpeg";
-import ph11 from "../../assets/img/amigurumis/11.jpeg";
 import ph12 from "../../assets/img/amigurumis/12.jpeg";
 import ph13 from "../../assets/img/amigurumis/13.jpeg";
 
@@ -48,9 +47,7 @@ export const CarouselAmigurumis = () => {
             <div className={styleBannerCss.photo}>
                 <img alt="" src={ph10} />
             </div>
-            <div className={styleBannerCss.photo}>
-                <img alt="" src={ph11} />
-            </div>
+
             <div className={styleBannerCss.photo}>
                 <img alt="" src={ph12} />
             </div>

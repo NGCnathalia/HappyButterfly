@@ -2,6 +2,7 @@ import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { CarouselHome } from '../components/Banner/CarouselHome';
 import { BtnFirst } from '../components/Button/BtnFirst';
+import { HappyCustomers } from '../components/HappyCustomers/HappyCustomers';
 import { SocialMedia } from '../components/SocialMedia/SocialMedia';
 
 export const Home = () => {
@@ -20,11 +21,9 @@ export const Home = () => {
       </section>
       <section className='secCategory'>
         <div className='divTitleCategory'>
-          <h1>CATEGORIAS</h1>
+          <h1>Clientes Felices</h1>
         </div>
-        <div>
-          
-        </div>
+        <HappyCustomers/>
       </section>
 
     </div>

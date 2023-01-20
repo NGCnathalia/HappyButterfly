@@ -60,9 +60,15 @@
 .navFirstUl2 {
   list-style: none;
   display: grid;
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(30px, auto);
   text-align: center;
   margin: auto;
+}
+.navFirst a:hover {
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+  text-shadow: -1px -1px 0 var(--color-pink-light), 0 -1px 0 var(--color-pink-light),
+  1px -1px 0 var(--color-pink-light), 1px 0 0 var(--color-pink-light),
+  1px 1px 0 var(--color-pink-light), 0 1px 0 var(--color-pink-light),
+  -1px 1px 0 var(--color-pink-light), -1px 0 0 var(--color-pink-light);
 }

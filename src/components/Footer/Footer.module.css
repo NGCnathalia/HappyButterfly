@@ -17,15 +17,14 @@
   height: 40px;
   border-radius: 50%;
 }
-.containerFooter :nth-child(1),
-.containerFooter :nth-child(2),
-.containerFooter :nth-child(3) {
+
+.containerFooter :nth-child(3)  {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .containerFooter a,
-.containerFooter h5,
+ .containerFooter h5, 
 .containerFooter h6 {
   font-family: "Euphoria Script", cursive;
   font-style: normal;
@@ -40,5 +39,28 @@
 .containerFooter a:visited {
   color: #000000;
   text-decoration: none;
+}
+.containerLogo h5{
+  display: none;
+}
+@media screen and (min-width:744px) and (max-width:1439px) {
+  .containerLogo{
+    display: flex;
+    align-items: center;
+  }
+  .containerLogo h5{
+    display: block;
+
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .containerLogo{
+    display: flex;
+    align-items: center;
+  }
+  .containerLogo h5{
+    display: block;
+  }
 }
 
