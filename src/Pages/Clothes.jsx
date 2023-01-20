@@ -1,7 +1,10 @@
 import React from 'react'
+import { CarouseClothes } from '../components/Banner/CarouseClothes'
 
 export const Clothes = () => {
   return (
-    <div>Clothes</div>
+    <div>
+      <CarouseClothes/>
+    </div>
   )
 }

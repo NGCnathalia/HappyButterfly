@@ -15,7 +15,7 @@ export const Footer = () => {
             <div> <img src={locate} alt="ubicacion" />
                 <h6>Cachipay, Cundinamarca.</h6>
             </div>
-            <a  href="" target="_blank">@Create By Nathalia Garcia </a>
+            <a  href="https://github.com/NGCnathalia" target="_blank">@Create By Nathalia Garcia </a>
         </footer>
     )
 }

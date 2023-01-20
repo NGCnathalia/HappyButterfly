@@ -1,7 +1,10 @@
 import React from 'react'
+import { CarouselAmigurumis } from '../components/Banner/CarouselAmigurumis'
 
 export const Amigurumis = () => {
   return (
-    <div>Amigurumis</div>
+    <div>
+      <CarouselAmigurumis/>
+    </div>
   )
 }
