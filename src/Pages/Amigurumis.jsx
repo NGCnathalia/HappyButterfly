@@ -1,6 +1,7 @@
 import React from 'react'
 import { CarouselAmigurumis } from '../components/Banner/CarouselAmigurumis'
 import { BtnFirst } from '../components/Button/BtnFirst'
+import { NavAmigurumis } from '../components/NavSecond/NavAmigurumis'
 import { SocialMedia } from '../components/SocialMedia/SocialMedia'
 
 export const Amigurumis = () => {
@@ -23,7 +24,7 @@ export const Amigurumis = () => {
           <h1>Filtros</h1>
         </div>
         <div>
-          
+          <NavAmigurumis/>
         </div>
       </section>
 

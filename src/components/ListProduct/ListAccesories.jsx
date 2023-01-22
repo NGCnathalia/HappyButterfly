@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react';
 import { Card } from './Card';
 import { dataAccesories } from '../../Data';
-import styleCardList from   "./Card.module.css"
+import styleCardList from   "./Card.module.css";
 
 export const ListAccesories = (props) => {
   const { nameFilter } = props;
