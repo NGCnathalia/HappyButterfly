@@ -144,31 +144,31 @@ export const dataAmigurumis = [
 export const dataClothes = [
     {
         id: "1",
-        filter: "",
+        filter: "swimsuit",
         url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Ropa%2FVestido%20de%20ba%C3%B1o%2F1.jpeg?alt=media&token=17fc6f52-6257-46c9-b75a-54935d5e51ba",
         price: "$ 80.000",
     },
     {
         id: "2",
-        filter: "",
+        filter: "cropTop",
         url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Ropa%2FCrop%20Top%2F2.jpeg?alt=media&token=42e6375e-3dc7-4a24-a6fe-c0e5361a9043",
         price: "$ 75.000",
     },
     {
         id: "3",
-        filter: "",
+        filter: "cropTop",
         url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Ropa%2FCrop%20Top%2F3.jpeg?alt=media&token=94e3b2b7-2545-4bb5-b75c-50296aff8085",
         price: "$ 50.000",
     },
     {
         id: "4",
-        filter: "",
+        filter: "cropTop",
         url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Ropa%2FCrop%20Top%2F4.jpeg?alt=media&token=dbde03ef-e8ba-419d-a66c-5466f25d12c6",
         price: "$ 80.000",
     },
     {
         id: "5",
-        filter: "",
+        filter: "cropTop",
         url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Ropa%2FCrop%20Top%2F5.jpeg?alt=media&token=701dba69-6b09-4611-a14a-570301414f26",
         price: "$ 65.000",
     }
@@ -176,20 +176,57 @@ export const dataClothes = [
 export const dataDreamCatcher = [
     {
         id: "1",
-        filter: "",
+        filter: "light",
         url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Atrapasue%C3%B1os%2F1.jpeg?alt=media&token=fac77075-097d-4ec9-a60f-18406f338724",
         price: "$ 20.000",
     },
     {
         id: "2",
-        filter: "",
+        filter: "light",
         url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Atrapasue%C3%B1os%2F2.jpeg?alt=media&token=92424f28-b790-4148-a6bc-7ca327f9d6e0",
         price: "$ 20.000",
     },
     {
         id: "3",
-        filter: "",
+        filter: "dark",
         url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Atrapasue%C3%B1os%2F3.jpeg?alt=media&token=9402e094-81b1-47dc-b460-7e26c93b2040",
         price: "$ 15.000",
+    },
+    {
+        id: "4",
+        filter: "light",
+        url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Atrapasue%C3%B1os%2F4.jpeg?alt=media&token=7f5105cf-a697-4f23-8a48-ba474e7c1870",
+        price: "$ 15.000",
+    },
+    {
+        id: "5",
+        filter: "light",
+        url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Atrapasue%C3%B1os%2F5.jpeg?alt=media&token=634f342c-6160-4d7f-924b-acefd882077e",
+        price: "$ 15.000",
+    },
+    {
+        id: "6",
+        filter: "dark",
+        url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Atrapasue%C3%B1os%2F6.jpeg?alt=media&token=70be96ca-adf8-405e-927c-7ae34aac32b3",
+        price: "$ 15.000",
+    },
+    {
+        id: "7",
+        filter: "light",
+        url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Atrapasue%C3%B1os%2F7.jpeg?alt=media&token=7e9aaddd-e406-47bb-b733-4ea537c53ebd",
+        price: "$ 15.000",
+    },
+    {
+        id: "8",
+        filter: "dark",
+        url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Atrapasue%C3%B1os%2F8.jpeg?alt=media&token=589faf53-127c-4e42-83e8-18d911fd684d",
+        price: "$ 15.000",
+    },
+    {
+        id: "9",
+        filter: "light",
+        url: "https://firebasestorage.googleapis.com/v0/b/happybutterfly-8ce35.appspot.com/o/Atrapasue%C3%B1os%2F9.jpeg?alt=media&token=78c05d92-f854-4d8d-872f-61315e77af01",
+        price: "$ 15.000",
     }
+
 ]

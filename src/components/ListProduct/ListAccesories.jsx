@@ -41,9 +41,6 @@ export const ListAccesories = (props) => {
 
         }))
       }
-      <div className="">
-
-      </div>
     </section>
 
   )

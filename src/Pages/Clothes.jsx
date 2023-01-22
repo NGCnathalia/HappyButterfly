@@ -1,6 +1,7 @@
 import React from 'react'
 import { CarouseClothes } from '../components/Banner/CarouseClothes'
 import { BtnFirst } from '../components/Button/BtnFirst'
+import { NavClothes } from '../components/NavSecond/NavClothes'
 import { SocialMedia } from '../components/SocialMedia/SocialMedia'
 
 export const Clothes = () => {
@@ -23,7 +24,7 @@ export const Clothes = () => {
           <h1>Filtros</h1>
         </div>
         <div>
-          
+          <NavClothes/>
         </div>
       </section>
 

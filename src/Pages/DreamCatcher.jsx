@@ -1,6 +1,7 @@
 import React from 'react'
 import { CarouselDreamCatcher } from '../components/Banner/CarouselDreamCatcher'
 import { BtnFirst } from '../components/Button/BtnFirst'
+import { NavDreamCatcher } from '../components/NavSecond/NavDreamCatcher'
 import { SocialMedia } from '../components/SocialMedia/SocialMedia'
 
 export const DreamCatcher = () => {
@@ -23,7 +24,7 @@ export const DreamCatcher = () => {
           <h1>Filtros</h1>
         </div>
         <div>
-          
+          <NavDreamCatcher/>
         </div>
       </section>
 

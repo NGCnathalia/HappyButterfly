@@ -1,36 +1,30 @@
-import React from 'react';
+import React from 'react'
 import { useState } from 'react';
 import { Card } from './Card';
-import { dataAmigurumis } from '../../Data';
+import { dataClothes } from '../../Data';
 import styleCardList from "./Card.module.css";
 
-export const ListAmigurumis = (props) => {
+export const ListClothes = (props) => {
     const { nameFilter } = props;
     let cont = 0;
 
     return (
         <section className={styleCardList.listCard}>
             {
-                dataAmigurumis.map((lista => {
+                dataClothes.map((lista => {
                     if (nameFilter == "all") {
                         return (
-                            <div className={styleCardList.cardListAccesories} key={lista.id}>
+                            <div className={styleCardList.cardListClothes} key={lista.id}>
                                 <Card lista={lista} />
                             </div>
                         )
-                    } else if (nameFilter == "small" && lista.filter == "small") {
+                    } else if (nameFilter == "cropTop" && lista.filter == "cropTop") {
                         return (
                             <div key={lista.id}>
                                 <Card lista={lista} />
                             </div>
                         )
-                    } else if (nameFilter == "medium" && lista.filter == "medium") {
-                        return (
-                            <div key={lista.id}>
-                                <Card lista={lista} />
-                            </div>
-                        )
-                    } else if (nameFilter == "large" && lista.filter == "large") {
+                    } else if (nameFilter == "swimsuit" && lista.filter == "swimsuit") {
                         return (
                             <div key={lista.id}>
                                 <Card lista={lista} />
@@ -40,8 +34,9 @@ export const ListAmigurumis = (props) => {
 
                 }))
             }
+
         </section>
 
     )
-}
 
+}
