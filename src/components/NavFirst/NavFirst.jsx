@@ -1,6 +1,6 @@
 import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
-import logo from "../../assets/icon/logo.jpeg"
+import logo from "../../assets/icon/Logo.jpeg"
 import search from "../../assets/icon/search.png"
 import car from "../../assets/icon/car.png"
 import styleCss from "./NavFirst.module.css"
