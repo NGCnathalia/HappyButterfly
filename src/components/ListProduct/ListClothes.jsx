@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { Card } from './Card';
-import { dataClothes } from '../../Data';
+import { data } from '../../Data';
 import styleCardList from "./Card.module.css";
 
 export const ListClothes = (props) => {
@@ -11,7 +11,7 @@ export const ListClothes = (props) => {
     return (
         <section className={styleCardList.listCard}>
             {
-                dataClothes.map((lista => {
+                data.map((lista => {
                     if (nameFilter == "all") {
                         return (
                             <div className={styleCardList.cardListClothes} key={lista.id}>

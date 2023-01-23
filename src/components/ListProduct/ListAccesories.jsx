@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Card } from './Card';
-import { dataAccesories } from '../../Data';
+import { data } from '../../Data';
 import styleCardList from   "./Card.module.css";
 
 export const ListAccesories = (props) => {
@@ -12,7 +12,7 @@ export const ListAccesories = (props) => {
   return (
     <section className={styleCardList.listCard}>
       {
-        dataAccesories.map((lista => {
+        data.map((lista => {
           if (nameFilter == "all") {
             return (
               <div className={styleCardList.cardListAccesories} key={lista.id}>

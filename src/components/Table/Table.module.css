@@ -1,0 +1,77 @@
+.table, .containerTotal{
+    background-color: var(--color-white);
+    width: 100%;
+    font-family: "Euphoria Script";
+    font-style: normal;
+    font-size: 1.1rem;
+    list-style: none;
+    text-shadow: -1px -1px 0 var(--color-white), 0 -1px 0 var(--color-white),
+      1px -1px 0 var(--color-white), 1px 0 0 var(--color-white),
+      1px 1px 0 var(--color-white), 0 1px 0 var(--color-white),
+      -1px 1px 0 var(--color-white), -1px 0 0 var(--color-white);
+}
+.tableTitle{
+    background-color: var(--color-blue);
+}
+.containerTable tr{
+    background-color: var(--color-green-dark);
+}
+.containerTable img{
+    width: 50px;
+    height: 50px;    
+}
+.containerTable tr {
+  margin: auto;
+  text-align: center;
+
+}
+.containerTable{
+    margin: auto;
+    background-color: var(--color-white);
+}
+.divBtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.containerTotal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding: 5px;
+}
+.containerTotal h1{
+    background-color: var(--color-pink-dark);
+    padding: 5px 10px;
+    border-start-start-radius: 40px;
+    border-end-start-radius: 40px;
+
+}
+.containerTotal h2{
+    background-color: var(--color-pink-dark);
+    padding: 5px 10px;
+    border-start-end-radius: 40px;
+    border-end-end-radius: 40px;
+}
+.btn {
+    font-family: "Euphoria Script";
+    font-style: normal;
+    font-size: 30px;
+    background: var(--color-pink-dark);
+    list-style: none;
+    width: auto;
+    height: auto;
+    border-radius: 50px;   
+    text-shadow: -1px -1px 0 var(--color-white), 0 -1px 0 var(--color-white),
+      1px -1px 0 var(--color-white), 1px 0 0 var(--color-white),
+      1px 1px 0 var(--color-white), 0 1px 0 var(--color-white),
+      -1px 1px 0 var(--color-white), -1px 0 0 var(--color-white);
+    transition: 0.5s all;
+    border: none;
+    padding: 3px 16px;
+    
+  }

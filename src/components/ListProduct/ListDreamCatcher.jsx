@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { Card } from './Card';
-import { dataDreamCatcher } from '../../Data';
+import { data } from '../../Data';
 import styleCardList from "./Card.module.css";
 
 export const ListDreamCatcher = (props) => {
@@ -11,7 +11,7 @@ export const ListDreamCatcher = (props) => {
     return (
         <section className={styleCardList.listCard}>
             {
-                dataDreamCatcher.map((lista => {
+                data.map((lista => {
                     if (nameFilter == "all") {
                         return (
                             <div className={styleCardList.cardDreamCatcher} key={lista.id}>
