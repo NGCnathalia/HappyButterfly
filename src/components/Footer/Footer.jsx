@@ -1,7 +1,7 @@
 import React from 'react'
 import { SocialMedia } from '../SocialMedia/SocialMedia'
 import styleCssFooter from "./Footer.module.css"
-import logo from "../../assets/icon/logo.jpeg"
+import logo from "../../assets/icon/Logo.jpeg"
 import locate from "../../assets/icon/locate.png"
 
 export const Footer = () => {
