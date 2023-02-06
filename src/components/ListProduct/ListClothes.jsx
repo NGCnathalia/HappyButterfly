@@ -7,31 +7,34 @@ import styleCardList from "./Card.module.css";
 export const ListClothes = (props) => {
     const { nameFilter } = props;
     let cont = 0;
-
+    let res = [];
+    function filtracion(filtro) {
+        if(filtro=="all"){
+            data.map((lista) => {
+                if (lista.filter =="cropTop" ||lista.filter =="swimsuit"  ) {
+                  res.push(lista);
+                }
+              });
+        }else{
+            data.map((lista) => {
+                if (lista.filter == filtro) {
+                  res.push(lista);
+                }
+              });
+        }    
+      }
+      filtracion(nameFilter);
+ 
     return (
         <section className={styleCardList.listCard}>
             {
-                data.map((lista => {
-                    if (nameFilter == "all") {
+                res.map((lista => {
                         return (
                             <div className={styleCardList.cardListClothes} key={lista.id}>
                                 <Card lista={lista} />
                             </div>
                         )
-                    } else if (nameFilter == "cropTop" && lista.filter == "cropTop") {
-                        return (
-                            <div key={lista.id}>
-                                <Card lista={lista} />
-                            </div>
-                        )
-                    } else if (nameFilter == "swimsuit" && lista.filter == "swimsuit") {
-                        return (
-                            <div key={lista.id}>
-                                <Card lista={lista} />
-                            </div>
-                        )
-                    }
-
+                   
                 }))
             }
 

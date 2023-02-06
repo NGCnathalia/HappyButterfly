@@ -5,23 +5,25 @@ import styleNavSecond from "./NavSecond.module.css"
 
 export const NavDreamCatcher = () => {
     const [clickAll, setClickAll] = useState(true);
-    const [clickLight, setClickLight] = useState(false);
-    const [ClickDark, setClickDark] = useState(false);
+    const [clickClassic, setClickClassic] = useState(false);
+    const [ClickPersonalized, setClickPersonalized] = useState(false);
 
     function clicks(num) {
         console.log("entro");
 
-        setClickLight(false);
-        setClickDark(false);
+        setClickClassic(false);
+        setClickPersonalized(false);
 
         switch (num) {
             case 1:
                 setClickAll(false);
-                setClickLight(true);
+                
+                setClickClassic(true);
                 break;
             case 2:
                 setClickAll(false);
-                setClickDark(true);
+              
+                setClickPersonalized(true);
                 break;
             default:
                 console.log("sorry");
@@ -32,19 +34,20 @@ export const NavDreamCatcher = () => {
     return (
         <div>
             <nav className={styleNavSecond.navDreamCatcher}>
-                <a onClick={() => { clicks(1) }}> <h3>Claro</h3> </a>
-                <a onClick={() => { clicks(2) }}> <h3>Oscuro</h3> </a>
+                <a onClick={() => { clicks(1) }}> <h3>Clásicos</h3> </a>
+                <a onClick={() => { clicks(2) }}> <h3>Personalizados</h3> </a>
 
             </nav>
             <div>
                 {clickAll ? <ListDreamCatcher nameFilter="all" /> : ""
                 }
-                {clickLight ? <ListDreamCatcher nameFilter="light" /> : ""
+                {clickClassic ? <ListDreamCatcher nameFilter="classic" /> : ""
                 }
-                {ClickDark ? <ListDreamCatcher nameFilter="dark" /> : ""
+                {ClickPersonalized ? <ListDreamCatcher nameFilter="personalized" /> : ""
                 }
 
             </div>
         </div>
+        
     )
 }

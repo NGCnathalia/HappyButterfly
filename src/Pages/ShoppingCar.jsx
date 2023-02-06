@@ -4,7 +4,7 @@ import { TableShopping } from '../components/Table/TableShopping'
 
 export const ShoppingCar = () => {
   return (
-    <div>
+    <div className='divContainerSC'>
       <CarouselHome/>
       <TableShopping />
     </div>

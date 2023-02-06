@@ -10,8 +10,13 @@
       1px 1px 0 var(--color-white), 0 1px 0 var(--color-white),
       -1px 1px 0 var(--color-white), -1px 0 0 var(--color-white);
 }
-.tableTitle{
-    background-color: var(--color-blue);
+
+.containerTable button{
+    background-color: var(--color-pink-dark);
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 40px;
+    border: none;
 }
 .containerTable tr{
     background-color: var(--color-green-dark);
@@ -45,17 +50,17 @@
     padding: 5px;
 }
 .containerTotal h1{
-    background-color: var(--color-pink-dark);
-    padding: 5px 10px;
-    border-start-start-radius: 40px;
-    border-end-start-radius: 40px;
+    background-color: var(--color-blue);
+    padding: 5px 5px 5px 25px;
+    border-start-start-radius: 20px;
+    /* border-end-start-radius: 40px; */
 
 }
 .containerTotal h2{
-    background-color: var(--color-pink-dark);
-    padding: 5px 10px;
-    border-start-end-radius: 40px;
-    border-end-end-radius: 40px;
+    background-color: var(--color-blue);
+    padding: 5px 25px 5px 5px;
+    /* border-start-end-radius: 40px; */
+    border-end-end-radius: 20px;
 }
 .btn {
     font-family: "Euphoria Script";

@@ -82,9 +82,9 @@ export const TableShopping = () => {
                                     <td>{item.price}</td>
                                     <td>
                                         <div >
-                                            <button onClick={() => handleUpdateCountDecrement(item.id)}>-</button>
+                                            <button onClick={() => handleUpdateCountDecrement(item.id)}> - </button>
                                             <span>{item.count}</span>
-                                            <button onClick={() => handleUpdateCountIncrement(item.id)}>+</button>
+                                            <button onClick={() => handleUpdateCountIncrement(item.id)}> + </button>
                                         </div>
                                     </td>
                                     <td>{parseInt(item.count) * parseInt(item.price)}</td>
