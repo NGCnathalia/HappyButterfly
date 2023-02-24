@@ -1,6 +1,7 @@
 .containerFooter {
   background: var(--color-blue);
   width: auto;
+  height: 100px;
   padding: 5px 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
