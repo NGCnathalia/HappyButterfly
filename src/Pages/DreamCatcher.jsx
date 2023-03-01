@@ -16,7 +16,7 @@ export const DreamCatcher = () => {
       </section>
       <section className='secHome'>
         <h1>Atrapasueños</h1>
-        <p>Mis productos son amigurumis, crop tops, bolsos y gran variedad tejidos a crochet 100 % a mano con excelente calidad de hilo, accesorios en porcelanicrón, foamy moldeable y bisutería en mostacillas</p>
+        <p>Los atrapasueños constan de un aro firme en alambre grueso, hilo macramé 100% acrílico para su bordado y tejido, plumas artificiales de colores, cuentas o abalorios de diversas formas y colores dependiendo el diseño.</p>
       </section>
 
       <section className='secCategory'>

@@ -40,18 +40,24 @@ body {
   font-family: "Euphoria Script", cursive;
   font-style: normal;
   color: var(--color-black);
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-shadow: -1px -1px 0 var(--color-white), 0 -1px 0 var(--color-white),
     1px -1px 0 var(--color-white), 1px 0 0 var(--color-white),
     1px 1px 0 var(--color-white), 0 1px 0 var(--color-white),
     -1px 1px 0 var(--color-white), -1px 0 0 var(--color-white);
   /* padding: 0.5rem; */
-  /* margin-bottom: 0.5rem; */
-} */
+  margin-bottom: 1rem;
+} 
 .secHome :nth-child(2) {
   font-family: "Indie Flower", cursive;
+  font-style: normal;
   padding: 1rem 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-align: justify;
+}
+.divTitleCategory{
+  margin-top: 1rem;
 }
 
 .secSocialMedia {
@@ -63,6 +69,5 @@ body {
 
 .divContainerSC {
   background-color: white;
-  
   min-height: calc(100vh - 200px);
 }

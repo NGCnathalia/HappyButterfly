@@ -16,7 +16,7 @@ export const Accesories = () => {
       </section>
       <section className='secHome'>
         <h1>Accesorios</h1>
-        <p>Accesorios en porcelanicrón, foamy moldeable y bisutería en mostacillas</p>
+        <p>Accesorios en porcelanicrón, foamy moldeable y bisutería en mostacillas. Los aretes y pulseras son realizados en porcelana fría y esmaltados para hacer más duraderas las piezas, también se realizan accesorios con mostacilla, cuentas y dijes de metal plateado tibetano.</p>
       </section>
 
       <section className='secCategory'>

@@ -16,7 +16,7 @@ export const Clothes = () => {
       </section>
       <section className='secHome'>
         <h1>Ropa</h1>
-        <p>Crop tops, vestidos de baño, bolsos y gran variedad tejidos a crochet 100 % a mano con excelente calidad de hilo.</p>
+        <p>Crop tops, vestidos de baño, bolsos y gran variedad tejidos a crochet 100 % a mano con excelente calidad de hilo. Los crop tops van tejidos a crochet con hilo macramé 100% acrílico, este material da firmeza al tejido y hace más duradera la prenda.</p>
       </section>
 
       <section className='secCategory'>

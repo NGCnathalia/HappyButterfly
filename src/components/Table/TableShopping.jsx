@@ -51,7 +51,7 @@ export const TableShopping = () => {
             ________________________________________________________________________________________________________
             Valor Total del producto ${x}`;
 
-            const url = `https://api.whatsapp.com/send?phone=573195113013&text=${encodeURIComponent(mensaje)}`;
+            const url = `https://api.whatsapp.com/send?phone=573046791610&text=${encodeURIComponent(mensaje)}`;
             window.open(url, '_blank');
         }
     }

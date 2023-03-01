@@ -16,7 +16,7 @@ export const Amigurumis = () => {
       </section>
       <section className='secHome'>
         <h1>Amigurumis</h1>
-        <p>Mis productos son amigurumis, crop tops, bolsos y gran variedad tejidos a crochet 100 % a mano con excelente calidad de hilo, accesorios en porcelanicrón, foamy moldeable y bisutería en mostacillas</p>
+        <p>Un acrónimo en japonés, compuesto de: ami, "tejido", y nuigurumi, "muñeco de peluche" es una tendencia o moda japonesa que consiste en tejer pequeños muñecos mediante técnicas de croché o ganchillo. La elaboración de los amigurumis consta de hilo macramé 100% acrílico, ya que da un toque firme al tejido y a tu amigurumi, su relleno es poliester, de modo que sea más fácil a la hora de lavado. </p>
       </section>
       
       <section className='secCategory'>
