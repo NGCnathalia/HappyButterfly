@@ -34,8 +34,8 @@ export const NavDreamCatcher = () => {
     return (
         <div>
             <nav className={styleNavSecond.navDreamCatcher}>
-                <a onClick={() => { clicks(1) }}> <h3>Clásicos</h3> </a>
-                <a onClick={() => { clicks(2) }}> <h3>Personalizados</h3> </a>
+                <a onClick={() => { clicks(1) }}> <h2>Clásicos</h2> </a>
+                <a onClick={() => { clicks(2) }}> <h2>Personalizados</h2> </a>
 
             </nav>
             <div>

@@ -38,9 +38,9 @@ export const NavAmigurumis = () => {
     return (
         <div>
             <nav className={styleNavSecond.navAmigurumis}>
-                <a onClick={() => { clicks(1) }}> <h3>Pequeño</h3> </a>
-                <a onClick={() => { clicks(2) }}> <h3>Mediano</h3> </a>
-                <a onClick={() => { clicks(3) }}> <h3>Grande</h3> </a>
+                <a onClick={() => { clicks(1) }}> <h2>Pequeño</h2> </a>
+                <a onClick={() => { clicks(2) }}> <h2>Mediano</h2> </a>
+                <a onClick={() => { clicks(3) }}> <h2>Grande</h2> </a>
 
             </nav>
             <div>

@@ -72,3 +72,14 @@
   1px 1px 0 var(--color-pink-light), 0 1px 0 var(--color-pink-light),
   -1px 1px 0 var(--color-pink-light), -1px 0 0 var(--color-pink-light);
 }
+
+@media screen and (min-width:1440px) {
+  .navFirstUl li:nth-child(2) h1,
+  .navFirstUl2 li {
+    font-size: 3rem;
+  }
+  
+  .navFirstUl2 li h1 {
+    font-size: 2.5rem;
+  }
+  }

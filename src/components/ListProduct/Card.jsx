@@ -38,7 +38,7 @@ export const Card = (props) => {
             <div >
                 <h3>$ {price}</h3>
                 <button onClick={handleSubmit}>
-                    <h1>Añadir al carrito</h1>
+                    <h3>Añadir al carrito</h3>
                 </button>
             </div>
         </div>

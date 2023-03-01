@@ -37,9 +37,9 @@ export const NavAccesories = () => {
     return (
         <div>
             <nav className={styleNavSecond.navAccesories}>
-                <a onClick={() => { clicks(1) }}> <h3>Aretes</h3> </a>
-                <a onClick={() => { clicks(2) }}> <h3>Manillas</h3> </a>
-                <a onClick={() => { clicks(3) }}> <h3>Llaveros</h3> </a>
+                <a onClick={() => { clicks(1) }}> <h2>Aretes</h2> </a>
+                <a onClick={() => { clicks(2) }}> <h2>Manillas</h2> </a>
+                <a onClick={() => { clicks(3) }}> <h2>Llaveros</h2> </a>
 
             </nav>
             <div>

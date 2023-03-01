@@ -49,6 +49,7 @@ body {
   margin-bottom: 1rem;
 } 
 .secHome :nth-child(2) {
+  font-size: 1rem;
   font-family: "Indie Flower", cursive;
   font-style: normal;
   padding: 1rem 1rem;
@@ -70,4 +71,17 @@ body {
 .divContainerSC {
   background-color: white;
   min-height: calc(100vh - 200px);
+}
+@media screen and (min-width:1440px) {
+.divHome h1, 
+.divAccesories h1,
+.divAmigurumis h1,
+.divClothes h1,
+.divDreamCatcher h1 {
+  font-size: 3rem;}
+
+  .secHome :nth-child(2) {
+    font-size: 2rem;
+  }
+  
 }

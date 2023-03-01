@@ -32,8 +32,8 @@ export const NavClothes = () => {
     return (
         <div>
             <nav className={styleNavSecond.navClothes}>
-                <a onClick={() => { clicks(1) }}> <h3>Crop Top</h3> </a>
-                <a onClick={() => { clicks(2) }}> <h3>Traje de baño</h3> </a>
+                <a onClick={() => { clicks(1) }}> <h2>Crop Top</h2> </a>
+                <a onClick={() => { clicks(2) }}> <h2>Traje de baño</h2> </a>
 
             </nav>
             <div>
