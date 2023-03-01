@@ -72,6 +72,19 @@ body {
   background-color: white;
   min-height: calc(100vh - 200px);
 }
+@media screen and (min-width:744px) and (max-width:1439px) {
+  .divHome h1, 
+  .divAccesories h1,
+  .divAmigurumis h1,
+  .divClothes h1,
+  .divDreamCatcher h1 {
+    font-size: 2.4rem;}
+  
+    .secHome :nth-child(2) {
+      font-size: 1.5rem;
+    }
+    
+}
 @media screen and (min-width:1440px) {
 .divHome h1, 
 .divAccesories h1,
