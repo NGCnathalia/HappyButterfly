@@ -80,3 +80,18 @@
     padding: 3px 16px;
     
   }
+
+  @media screen and (min-width:744px) and (max-width:1439px) {
+    .table, .containerTotal{
+        font-size: 2.2rem;
+        
+    }
+      
+  }
+  @media screen and (min-width:1440px) {
+    .table, .containerTotal{
+        font-size: 2.5rem;
+        
+    }
+    
+  }
